@@ -1,0 +1,30 @@
+openapi: 3.0.1
+info:
+  title: Vehicle SDM
+  version: "1.0.0"
+  description: SDM de Vehicle con CameraRGB y GNSS basado en SOSA, usando ObservableProperty
+
+paths: {}
+
+components:
+  schemas:
+    Platform:
+      $ref: "./schemas/Platform.yaml"
+    Sensor:
+      $ref: "./schemas/Sensor.yaml"
+    CameraRGB:
+      $ref: "./schemas/CameraRGB.yaml"
+    GNSS:
+      $ref: "./schemas/GNSS.yaml"
+    ObservableProperty:
+      $ref: "./schemas/ObservableProperty.yaml"
+    FrameObservableProperty:
+      $ref: "./schemas/FrameObservableProperty.yaml"
+    GNSSObservableProperty:
+      $ref: "./schemas/GNSSObservableProperty.yaml"
+    Observation:
+      $ref: "./schemas/Observation.yaml"
+    FrameObservation:
+      $ref: "./schemas/FrameObservation.yaml"
+    GNSSObservation:
+      $ref: "./schemas/GNSSObservation.yaml"
