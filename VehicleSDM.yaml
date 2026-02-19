@@ -9,22 +9,23 @@ paths: {}
 components:
   schemas:
     Platform:
-      $ref: "./schemas/Platform.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/Platform.yaml"
     Sensor:
-      $ref: "./schemas/Sensor.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/Sensor.yaml"
     CameraRGB:
-      $ref: "./schemas/CameraRGB.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/CameraRGB.yaml"
     GNSS:
-      $ref: "./schemas/GNSS.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/GNSS.yaml"
     ObservableProperty:
-      $ref: "./schemas/ObservableProperty.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/ObservableProperty.yaml"
     FrameObservableProperty:
-      $ref: "./schemas/FrameObservableProperty.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/FrameObservableProperty.yaml"
     GNSSObservableProperty:
-      $ref: "./schemas/GNSSObservableProperty.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/GNSSObservableProperty.yaml"
     Observation:
-      $ref: "./schemas/Observation.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/Observation.yaml"
     FrameObservation:
-      $ref: "./schemas/FrameObservation.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/FrameObservation.yaml"
     GNSSObservation:
-      $ref: "./schemas/GNSSObservation.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/schemas/GNSSObservation.yaml"
+
