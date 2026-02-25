@@ -1,0 +1,16 @@
+GNSS:
+  allOf:
+    - $ref: "#/components/schemas/Sensor"
+    - type: object
+      description: GNSS sensor.
+      properties:
+        type:
+          description: NGSI entity type. It must be equal to `GNSS`
+          type: string
+          enum:
+            - GNSS
+          x-ngsi:
+            type: Property
+      required:
+        - id
+        - type

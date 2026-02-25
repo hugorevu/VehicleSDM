@@ -4,8 +4,6 @@ Result:
   properties:
     type:
       description: Property. NGSI entity type. It must be equal to `Result`
-      enum:
-      - Result
       type: string
       x-ngsi:
         type: Property

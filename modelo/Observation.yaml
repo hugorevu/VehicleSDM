@@ -15,8 +15,6 @@ Observation:
         type: Property
     type:
       description: Property. NGSI entity type. It must be equal to `Observation`
-      enum:
-      - Observation
       type: string
       x-ngsi:
         type: Property

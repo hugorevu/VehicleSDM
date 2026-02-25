@@ -6,8 +6,6 @@ Sensor:
   properties:
     type:
       description: Property. NGSI entity type. It must be equal to `Sensor`
-      enum:
-      - Sensor
       type: string
       x-ngsi:
         type: Property
