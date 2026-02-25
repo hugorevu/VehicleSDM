@@ -1,5 +1,5 @@
 type: object
-title: platform
+title: Platform
 description: A Platform is an entity that hosts other entities, particularly Sensors,
   Actuators, Samplers, and other Platforms.
 properties:
