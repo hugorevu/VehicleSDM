@@ -1,6 +1,6 @@
 GNSSResult:
   allOf:
-    - $ref: "Result.yaml"
+    - $ref: "./Result.yaml"
     - type: object
       description: Result of a GNSS observation.
       properties:

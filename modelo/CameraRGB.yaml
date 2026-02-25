@@ -1,6 +1,6 @@
 CameraRGB:
   allOf:
-    - $ref: "#/components/schemas/Sensor"
+    - $ref: "./Sensor"
     - type: object
       description: RGB camera sensor.
       properties:

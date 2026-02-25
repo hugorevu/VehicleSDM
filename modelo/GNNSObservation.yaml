@@ -1,6 +1,6 @@
 GNSSObservation:
   allOf:
-    - $ref: "Observation.yaml"
+    - $ref: "./Observation.yaml"
     - type: object
       description: GNSS observation for location.
       properties:

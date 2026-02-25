@@ -1,6 +1,6 @@
 GNSS:
   allOf:
-    - $ref: "#/components/schemas/Sensor"
+    - $ref: "#./Sensor"
     - type: object
       description: GNSS sensor.
       properties:

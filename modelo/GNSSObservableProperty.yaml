@@ -1,6 +1,6 @@
 GNSSObservableProperty:
   allOf:
-    - $ref: "ObservableProperty.yaml"
+    - $ref: "./ObservableProperty.yaml"
     - type: object
       description: ObservableProperty representing geographic location.
       properties:

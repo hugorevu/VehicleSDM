@@ -1,6 +1,6 @@
 FrameObservableProperty:
   allOf:
-    - $ref: "ObservableProperty.yaml"
+    - $ref: "./ObservableProperty.yaml"
     - type: object
       description: ObservableProperty representing a camera RGB frame.
       properties:
