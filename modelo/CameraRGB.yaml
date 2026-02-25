@@ -1,6 +1,6 @@
 CameraRGB:
   allOf:
-    - $ref: "./Sensor"
+    - $ref: "./Sensor.yaml"
     - type: object
       description: RGB camera sensor.
       properties:

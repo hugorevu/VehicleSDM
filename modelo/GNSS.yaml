@@ -1,6 +1,6 @@
 GNSS:
   allOf:
-    - $ref: "#./Sensor"
+    - $ref: "./Sensor.yaml"
     - type: object
       description: GNSS sensor.
       properties:
