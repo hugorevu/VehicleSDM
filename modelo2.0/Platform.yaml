@@ -12,8 +12,10 @@ properties:
       type: Property
   hosts:
     description: Relation between a Platform and a Sensor, Actuator, Sampler, or Platform hosted on it.
-    type: string
-    format: uri
+    type: array
+    items:
+      type: string
+      format: uri
     x-ngsi:
       type: Relationship
 required:
