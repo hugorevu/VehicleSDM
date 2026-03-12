@@ -17,7 +17,6 @@
         "hasResult": "fiware:hasResult",
         "hosts": "fiware:hosts",
         "isHostedBy": "fiware:isHostedBy",
-        "location": "fiware:location",
         "madeObservation": "fiware:madeObservation",
         "observedProperty": "fiware:observedProperty",
     }
