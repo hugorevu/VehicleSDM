@@ -1,6 +1,10 @@
 {
     "@context": {
+        "type": "@type",
+        "id": "@id",
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
         "fiware": "https://uri.fiware.org/ns/data-models#",
+        "schema": "https://schema.org/",
         "CameraRGB": "fiware:CameraRGB",
         "FrameObservableProperty": "fiware:FrameObservableProperty",
         "FrameObservation": "fiware:FrameObservation",
@@ -14,10 +18,14 @@
         "Platform": "fiware:Platform",
         "Result": "fiware:Result",
         "Sensor": "fiware:Sensor",
+        "description": "fiware:description",
         "hasResult": "fiware:hasResult",
         "hosts": "fiware:hosts",
         "isHostedBy": "fiware:isHostedBy",
+        "location": "fiware:location",
         "madeObservation": "fiware:madeObservation",
-        "observedProperty": "fiware:observedProperty"
+        "observedProperty": "fiware:observedProperty",
+        "resultTime": "fiware:resultTime",
+        "value": "fiware:value"
     }
 }
