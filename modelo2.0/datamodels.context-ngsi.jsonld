@@ -18,6 +18,6 @@
         "hosts": "fiware:hosts",
         "isHostedBy": "fiware:isHostedBy",
         "madeObservation": "fiware:madeObservation",
-        "observedProperty": "fiware:observedProperty",
+        "observedProperty": "fiware:observedProperty"
     }
 }
